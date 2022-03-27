@@ -26,9 +26,9 @@ the /.env file : MONGO_URL=yourdatabaseURL
 
 update the /.env variables to fit your owns:
 
-  ENCRYPTION_SECRET=somethingSpecialAsSecret
-  STRIPE_KEY=sk_test....yourStripeKey
-  JWT_SECRET=SomethingSpecial
+  * ENCRYPTION_SECRET=somethingSpecialAsSecret
+  * STRIPE_KEY=sk_test....yourStripeKey
+  * JWT_SECRET=SomethingSpecial
 
 In the project directory, start the server : 
 
