@@ -10,7 +10,7 @@ This is the backend part of WiStore Dashboard created with Node.js & Express Ser
 * Stripe to Manage Payments
 
 
-## Installaiom
+## Installation
 
 First of all, clone the repository into your machine :
 
