@@ -14,25 +14,31 @@ This is the backend part of WiStore Dashboard created with Node.js & Express Ser
 
 First of all, clone the repository into your machine :
 
-### `git clone https://github.com/Bachir-Seghir/Jobify.git`
+```sh 
+git clone https://github.com/Bachir-Seghir/Jobify.git
+```
 
 In the project directory install all dependencies:
 
-### `npm install`
+```sh
+npm install
+```
 
 ## Database Installation :
 create your Database via MongoDB Atlas and get the DB Url then put it in
 the /.env file : MONGO_URL=yourdatabaseURL
 
 update the /.env variables to fit your owns:
-
-  * ENCRYPTION_SECRET=somethingSpecialAsSecret
-  * STRIPE_KEY=sk_test....yourStripeKey
-  * JWT_SECRET=SomethingSpecial
-
+```sh
+   ENCRYPTION_SECRET=somethingSpecialAsSecret
+   STRIPE_KEY=sk_test....yourStripeKey
+   JWT_SECRET=SomethingSpecial
+```
 In the project directory, start the server : 
 
-### `npm run dev`
+```sh
+npm run dev
+```
 
 
 ### Deployment
